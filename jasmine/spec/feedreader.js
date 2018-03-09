@@ -25,7 +25,7 @@ $(function() {
                 expect(feed.url.length).not.toBe(0);
                 expect(feed.url).toMatch(/^(http|https):\/\//);
             });
-        })
+        });
 
 
         //Ensure the feeds have defined names
@@ -35,7 +35,7 @@ $(function() {
                  expect(feed.name).not.toBe("");
                  expect(feed.name.length).not.toBe(0);
              });
-         })
+         });
     });
 
 
