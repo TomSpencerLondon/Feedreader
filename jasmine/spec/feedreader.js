@@ -90,7 +90,7 @@ $(function() {
         afterEach(function() {
             loadFeed(0);
         });
-
+        //Tests for correct display after selection from menu
         it('changes the feed content according to the selected element from the menu', function() {
             expect(compareFeedFirst).toBeDefined();
             compareFeedSecond = $('.feed').html();
