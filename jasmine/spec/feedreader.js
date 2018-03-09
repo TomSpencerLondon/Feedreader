@@ -24,7 +24,7 @@ $(function() {
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
                 expect(feed.url).toMatch(/^(http|https):\/\//);
-            })
+            });
         })
 
 
@@ -34,7 +34,7 @@ $(function() {
                  expect(feed.name).toBeDefined();
                  expect(feed.name).not.toBe("");
                  expect(feed.name.length).not.toBe(0);
-             })
+             });
          })
     });
 
@@ -45,14 +45,14 @@ $(function() {
         //Tests that menu is hidden by default
         it('hides the menu element by default', function(){
             expect($('body').hasClass('menu-hidden')).toBe(true);
-        })
+        });
         //Tests show and hide for menu icon
         it('shows and hides the menu icon', function(){
             $('.menu-icon-link').click();
             expect($('body').hasClass('menu-hidden')).toBe(false);
             $('.menu-icon-link').click();
             expect($('body').hasClass('menu-hidden')).toBe(true);
-        })
+        });
 
     });
 
