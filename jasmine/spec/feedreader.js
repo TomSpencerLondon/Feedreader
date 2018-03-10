@@ -66,7 +66,7 @@ $(function() {
          });
          
          it('feed container has at least 1 entry', function(done) {
-            var entryNumber = $('.entry').length;
+            var entryNumber = $('.feed .entry').length;
             expect(entryNumber).toBeGreaterThan(0);
             done();
          });
