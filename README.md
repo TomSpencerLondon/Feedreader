@@ -16,5 +16,5 @@ $ open index.html
 
 The test results are shown on same page as the feedreader:
 
-![alt text](images/test.png)
+![alt text](images/tests.png)
 ![alt text](images/menu.png)
