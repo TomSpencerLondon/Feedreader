@@ -87,8 +87,9 @@ $(function() {
             });
         });
 
-        afterEach(function() {
+        afterEach(function(done) {
             loadFeed(0);
+            done();
         });
         //Tests for correct display after selection from menu
         it('changes the feed content according to the selected element from the menu', function() {
